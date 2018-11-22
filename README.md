@@ -4,7 +4,7 @@ Introduction to using Spring Boot, applying it to create a simple Bank applicati
 <p>Currently incomplete: Latest ToDo:
 <ul> <li>Previous tasks</li> 
 <ul><li> finish currency total filter method</li></ul>
-</ul>
+</ul> 
 
 <ul>
 	<li>Users: Database</li>
@@ -48,25 +48,25 @@ Create a new project with the following screenshots as a guide
 <table>
     <tr>
         <td>
-            <img alt="step 1" src="docs/screenshots/image201.png">
+            <img alt="step 1" src="src/docs/screenshots/image201.png">
         </td>
         <td>
-            <img alt="step 2" src="docs/screenshots/image202.png">
+            <img alt="step 2" src="src/docs/screenshots/image202.png">
         </td>
         <td>
-            <img alt="step 3" src="docs/screenshots/image203.png">
+            <img alt="step 3" src="src/docs/screenshots/image203.png">
         </td>
-<td><img alt="step 4" src="docs/screenshots/image204.png"></td>
+<td><img alt="step 4" src="src/docs/screenshots/image204.png"></td>
     </tr>
 <tr>
         <td>
-            <img alt="step 5" src="docs/screenshots/image205.png">
+            <img alt="step 5" src="src/docs/screenshots/image205.png">
         </td>
         <td>
-            <img alt="step 6" src="docs/screenshots/image205.png">
+            <img alt="step 6" src="src/docs/screenshots/image205.png">
         </td>
         <td>
-            <img alt="step 7" src="docs/screenshots/image207.png">
+            <img alt="step 7" src="src/docs/screenshots/image207.png">
         </td>
 <td><img alt="step 8" src="docs/screenshots/image208.png"></td>
     </tr>
