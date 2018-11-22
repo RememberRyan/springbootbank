@@ -68,7 +68,7 @@ Create a new project with the following screenshots as a guide
         <td>
             <img alt="step 7" src="src/docs/screenshots/image207.png">
         </td>
-<td><img alt="step 8" src="docs/screenshots/image208.png"></td>
+<td><img alt="step 8" src="src/docs/screenshots/image208.png"></td>
     </tr>
 </table>
 
