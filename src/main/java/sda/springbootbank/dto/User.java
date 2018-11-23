@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.time.DateTimeException;
 import java.time.LocalDate;
 
 /**
@@ -31,5 +30,9 @@ public class User {
     @Column (name="nationality")
     private String nationality;
     @Column (name="account_num")
-    private int account_num;
+    private int account_num; // Viktor advises  this type is incorrect
+
+    // foreign key implementation?
+    @OneToOne(mappedBy = "user")
+    private Account account;
 }

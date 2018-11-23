@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 //empty constructors
 @NoArgsConstructor
 
-public class Accounts {
+public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -28,4 +28,9 @@ public class Accounts {
 
     @Column (name ="balance")
     private BigDecimal balance; // https://stackoverflow.com/a/8148773
+
+    // foreign key implementation??
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id")
+    private User user;
 }

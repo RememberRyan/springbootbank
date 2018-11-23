@@ -46,6 +46,8 @@ public class UserController {
      */
     @RequestMapping(method = RequestMethod.POST, path = "/add")
     public void addNewUser(@RequestBody User user) {
+        // default account details need to be added here before saving
+
         userRepository.save(user);
     }
 }
