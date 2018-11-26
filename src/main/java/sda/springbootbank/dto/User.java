@@ -30,7 +30,17 @@ public class User {
     @Column (name="nationality")
     private String nationality;
     @Column (name="account_num")
-    private int account_num; // Viktor advises  this type is incorrect
+    private int account_num; // Viktor advises  this type 'int' is incorrect
+
+    // for authentication with database, @Column will automatically generate the column with Spring
+    @Column
+    private String username;
+    @Column
+    private String password;
+
+    // for average age method
+    @Column
+    private int age;
 
     // foreign key implementation?
     @OneToOne(mappedBy = "user")

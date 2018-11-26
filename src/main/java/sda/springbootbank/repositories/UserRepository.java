@@ -18,4 +18,7 @@ public interface UserRepository extends CrudRepository<User, Integer> {
     // filter by Nationality
     Iterable<User> findAllByNationality(String nationality);
 
+    // db authentication
+    User findByUsername(String username);
+
 }

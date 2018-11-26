@@ -61,6 +61,17 @@ values ('Sean',
 insert into accounts (id, currency, balance) values ('001', 'USD', '100.00');
 insert into accounts (id, currency, balance) values ('002', 'USD', '100.00');
 insert into accounts (id, currency, balance) values ('003', 'GBP', '500.00');
-
 -- last edited 23-Nov-2018
 
+-- 26th November 2018
+ALTER TABLE user
+  add username VARCHAR(75) NOT NULL,
+  add password VARCHAR(75) NOT NULL;
+
+  ALTER TABLE user
+  add age numeric (3);
+
+-- INSERT INTO user ( username, password ) VALUES
+--   ('raquel','1234' ),
+--   ('bob', '1234' ),
+--   ('sean','1234');
